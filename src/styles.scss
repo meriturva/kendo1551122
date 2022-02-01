@@ -1,0 +1,16 @@
+// JUST REMOVE IT TO SEE CORRECT NOTIFICATION COLORS (YELLOW)
+$kendo-theme-colors: (
+    "warning": pink
+) !default;
+
+// Notification
+$notification-themes: (
+    "warning": ( color:black, bg: yellow)
+) !default;
+
+
+@import "./node_modules/@progress/kendo-theme-bootstrap/scss/core/functions/_index.scss";
+@import "./node_modules/@progress/kendo-theme-bootstrap/scss/core/mixins/_index.scss";
+@import "./node_modules/@progress/kendo-theme-bootstrap/scss/_variables.scss";
+
+@import "./node_modules/@progress/kendo-theme-bootstrap/scss/notification/_index.scss";
