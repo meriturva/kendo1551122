@@ -1,7 +1,10 @@
-// JUST REMOVE IT TO SEE CORRECT NOTIFICATION COLORS (YELLOW)
+// REMOVE IT DOES NOT HELP DUE TO THE FACT THAT $kendo-theme-colors has default value.
 $kendo-theme-colors: (
     "warning": pink
 ) !default;
+
+// UNCCOMMENT: ONLY WAY TO MAKE IT WORKS CORRECTLY
+// $kendo-theme-colors: ( );
 
 // Notification
 $notification-themes: (
